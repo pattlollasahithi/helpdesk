@@ -1,0 +1,345 @@
+[
+  {
+    "id": "TC001",
+    "title": "View the homepage hero and branding",
+    "description": "A visitor can load the homepage and see the main hero content with campus branding.",
+    "category": "Homepage Marketing Content",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the hero welcome content is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify campus branding is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC002",
+    "title": "Send a custom question to the help-desk chat",
+    "description": "A visitor can type and send a custom admissions, fees, or courses question and see both the sent message and a bot response.",
+    "category": "Help Desk Chat",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button"
+      },
+      {
+        "type": "action",
+        "description": "Type a custom question into the chat message field"
+      },
+      {
+        "type": "action",
+        "description": "Send the chat message"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the user message is displayed in the conversation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a bot response is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC003",
+    "title": "Jump to programs from the hero",
+    "description": "A visitor can use the programs call to action to jump to the courses section and continue browsing the homepage.",
+    "category": "Homepage Marketing Content",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the explore programs call to action"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the courses section is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the homepage remains available after the jump"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC004",
+    "title": "Use the sticky navigation to jump between sections",
+    "description": "A visitor can use the persistent navigation to move to the main homepage sections from anywhere on the page.",
+    "category": "Sticky Navbar Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the home navigation link"
+      },
+      {
+        "type": "action",
+        "description": "Click the about navigation link"
+      },
+      {
+        "type": "action",
+        "description": "Click the courses navigation link"
+      },
+      {
+        "type": "action",
+        "description": "Click the mentors navigation link"
+      },
+      {
+        "type": "action",
+        "description": "Click the campus navigation link"
+      },
+      {
+        "type": "action",
+        "description": "Click the placements navigation link"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the corresponding homepage sections are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC005",
+    "title": "Read quick question replies in the chat drawer",
+    "description": "A visitor can open the help-desk chat, use a suggested question chip, and see the bot reply.",
+    "category": "Help Desk Chat",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the chat drawer is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the welcome message is displayed"
+      },
+      {
+        "type": "action",
+        "description": "Click a quick question chip"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a bot reply is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC006",
+    "title": "Scroll through the full homepage content",
+    "description": "A visitor can scroll through the homepage and reach the main informational sections and footer.",
+    "category": "Homepage Marketing Content",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll down the page"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the about section is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the footer is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC007",
+    "title": "Minimize and reopen the chat without losing the conversation",
+    "description": "A visitor can minimize the chat drawer, reopen it, and continue with the existing conversation intact.",
+    "category": "Help Desk Chat",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button"
+      },
+      {
+        "type": "action",
+        "description": "Type a custom question into the chat message field"
+      },
+      {
+        "type": "action",
+        "description": "Send the chat message"
+      },
+      {
+        "type": "action",
+        "description": "Minimize the chat drawer"
+      },
+      {
+        "type": "action",
+        "description": "Reopen the chat drawer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the previous conversation is still displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the chat drawer remains usable"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC008",
+    "title": "Open and close the mobile navigation menu",
+    "description": "A visitor on a small-screen layout can open the navigation menu, view section links, and close it again.",
+    "category": "Sticky Navbar Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Open the navigation menu"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the section links are displayed in the navigation menu"
+      },
+      {
+        "type": "action",
+        "description": "Close the navigation menu"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the navigation menu is hidden"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC009",
+    "title": "Keep the homepage open when using the logo and auth buttons",
+    "description": "A visitor can click the logo, login, and sign up controls without leaving the homepage or starting authentication.",
+    "category": "Sticky Navbar Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the EduReach logo"
+      },
+      {
+        "type": "action",
+        "description": "Click the login button"
+      },
+      {
+        "type": "action",
+        "description": "Click the sign up button"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the user remains on the homepage"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify no authentication flow is started"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC010",
+    "title": "Close the chat drawer and return to browsing",
+    "description": "A visitor can close the help-desk chat drawer and continue using the homepage normally.",
+    "category": "Help Desk Chat",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button"
+      },
+      {
+        "type": "action",
+        "description": "Close the chat drawer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the chat drawer is hidden"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the homepage is still displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC011",
+    "title": "Stay on the homepage when opening navigation after chat use",
+    "description": "A visitor can use chat and then return to section navigation without the page changing unexpectedly.",
+    "category": "Homepage Marketing Content",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button"
+      },
+      {
+        "type": "action",
+        "description": "Close the chat drawer"
+      },
+      {
+        "type": "action",
+        "description": "Click the courses navigation link"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the courses section is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the homepage content remains accessible"
+      }
+    ],
+    "priority": "Medium"
+  }
+]
